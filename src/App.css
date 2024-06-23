@@ -1,0 +1,49 @@
+#root {
+  max-width: fit-content;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+  border: solid;
+  background-color: darkcyan;
+}
+
+.square {
+  background: #000000;
+  border: 0.5px solid #999;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.header {
+  font-family: "Verdana";
+}
+
+.goBackBtn {
+  color: white;
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  cursor: pointer;
+}
+
+.board {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
+
+.result {
+  margin-top: 25px;
+}
